@@ -1,0 +1,55 @@
+.app-container {
+  padding: 20px;
+}
+
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.date-range {
+  width: 320px;
+}
+
+.el-tag {
+  margin-right: 5px;
+}
+
+.status-col {
+  .el-tag {
+    margin-right: 0;
+  }
+}
+
+.small-padding {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.fixed-width {
+  min-width: 200px;
+}
+
+.el-dialog {
+  .el-descriptions {
+    margin-bottom: 20px;
+  }
+}
+
+.upload-demo {
+  .el-upload {
+    margin-bottom: 10px;
+  }
+}
+
+.dialog-footer {
+  text-align: right;
+  margin-top: 20px;
+}
