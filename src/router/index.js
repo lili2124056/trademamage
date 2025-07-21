@@ -139,27 +139,27 @@ export const asyncRoutes = [
       title: '订单管理',
       icon: 'shopping',
       roles: ['admin', 'editor']
-    },
-    children: [
-      {
-        path: 'trade-order',
-        component: () => import('@/views/order/trade-order/index'),
-        name: 'TradeOrder',
-        meta: { title: '自选交易订单' }
-      },
-      {
-        path: 'quick-buy',
-        component: () => import('@/views/order/quick-buy/index'),
-        name: 'QuickBuy',
-        meta: { title: '快捷客户买单' }
-      },
-      {
-        path: 'quick-sell',
-        component: () => import('@/views/order/quick-sell/index'),
-        name: 'QuickSell',
-        meta: { title: '快捷客户卖单' }
-      }
-    ]
+     },
+    // children: [
+    //   {
+    //     path: 'trade-order',
+    //     component: () => import('@/views/order/trade-order/index'),
+    //     name: 'TradeOrder',
+    //     meta: { title: '自选交易订单' }
+    //   },
+    //   {
+    //     path: 'quick-buy',
+    //     component: () => import('@/views/order/quick-buy/index'),
+    //     name: 'QuickBuy',
+    //     meta: { title: '快捷客户买单' }
+    //   },
+    //   {
+    //     path: 'quick-sell',
+    //     component: () => import('@/views/order/quick-sell/index'),
+    //     name: 'QuickSell',
+    //     meta: { title: '快捷客户卖单' }
+    //   }
+    // ]
   },
 
   // {
